@@ -14,3 +14,23 @@ By the end of this chapter, you will be able to:
 
 Segmented regression is commonly used to estimate changes in outcome levels and trends following an intervention.
 
+
+## 4.1 Explain Segmented Regression
+
+Explain the principles of segmented regression and why it is used in interrupted time series analysis.
+
+## 4.2 Construct and Fit a Basic ITS Model
+
+Learn how to create the time variable, intervention indicator, and time-since-intervention variable, then fit a basic ITS model in R.
+
+## 4.3 Interpret Immediate Level Changes and Changes in Trend
+
+Understand how to interpret changes in outcome levels immediately after an intervention and changes in the subsequent trend.
+
+## 4.4 Select an Appropriate Outcome Distribution
+
+Learn when to consider linear regression, Poisson regression, or negative binomial regression based on the outcome and data structure.
+
+## 4.5 Assess Model Assumptions and Diagnostics
+
+Assess autocorrelation, residual patterns, seasonality, model fit, and other relevant assumptions.
