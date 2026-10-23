@@ -1,0 +1,252 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "",
+    "text": "1 Welcome to Interrupted Time Series Analysis with R",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#a-practical-guide-to-evaluating-health-interventions-and-policies",
+    "href": "index.html#a-practical-guide-to-evaluating-health-interventions-and-policies",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.1 A Practical Guide to Evaluating Health Interventions and Policies",
+    "text": "1.1 A Practical Guide to Evaluating Health Interventions and Policies\nInterrupted time series (ITS) analysis is a powerful quasi-experimental method for evaluating the effects of health interventions, public health programs, and policy changes over time. It is particularly useful when randomized controlled trials are not feasible and researchers need to assess whether an intervention is associated with a change in an outcome beyond what would have been expected from the underlying trend.\nThis book provides a practical, step-by-step guide to conducting interrupted time series analysis using R. It takes readers from understanding the study design and preparing routine health data to fitting statistical models, assessing assumptions, interpreting intervention effects, and reporting findings.\nThe guide emphasizes the application of ITS methods to real-world public health and health systems research, including the evaluation of health policies, clinical interventions, service delivery innovations, and health system reforms.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-will-you-learn",
+    "href": "index.html#what-will-you-learn",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.2 What will you learn?",
+    "text": "1.2 What will you learn?\nBy working through this guide, you will learn how to:\n\nUnderstand the principles, strengths, and limitations of interrupted time series analysis.\nFormulate research questions and define intervention dates, outcomes, and study periods.\nImport, clean, wrangle, and validate datasets for time series analysis.\nConstruct time indices, intervention indicators, and variables representing time since intervention.\nExplore and visualize outcome trends before and after an intervention.\nFit segmented regression models and interpret immediate level changes and changes in trend.\nAssess autocorrelation, seasonality, missing data, and other important analytical challenges.\nConduct controlled interrupted time series analysis when a suitable comparison group is available.\nPerform sensitivity analyses and evaluate the robustness of findings.\nPresent results using clear tables, figures, and scientific reporting.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#who-is-this-guide-for",
+    "href": "index.html#who-is-this-guide-for",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.3 Who is this guide for?",
+    "text": "1.3 Who is this guide for?\nThis guide is intended for epidemiologists, biostatisticians, public health researchers, health policy analysts, graduate students, and other researchers interested in evaluating interventions using routinely collected data.\nReaders with basic knowledge of regression analysis and some experience with R will benefit most. The guide introduces key statistical concepts alongside practical code, making it useful for both learning and reference.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-is-the-book-organized",
+    "href": "index.html#how-is-the-book-organized",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.4 How is the book organized?",
+    "text": "1.4 How is the book organized?\nThe book follows the sequence of an actual analytical project.\nPart I: Foundations of Interrupted Time Series Analysis introduces the design, research questions, intervention definition, and analytical environment.\nPart II: Data Preparation and Exploration covers data import, data wrangling, time-variable construction, descriptive analysis, and visualization.\nPart III: Building the ITS Model introduces segmented regression, model selection, autocorrelation, seasonality, and diagnostic assessment.\nPart IV: Advanced Designs and Extensions explores controlled ITS, multiple facilities, advanced time series methods, and common data challenges.\nPart V: Robustness, Interpretation, and Reporting focuses on sensitivity analyses, effect interpretation, uncertainty, and scientific reporting.\nPart VI: Worked Examples and Practical Applications brings the methods together through applied analyses of health interventions and policies.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-guide",
+    "href": "index.html#how-to-use-this-guide",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.5 How to use this guide",
+    "text": "1.5 How to use this guide\nThe chapters are designed to be followed sequentially, particularly if you are new to interrupted time series analysis. Each chapter builds on the previous one and combines methodological explanations with practical analytical steps in R.\nReaders who already have experience with ITS can use individual chapters as a reference for specific stages of their analysis.\nWhenever possible, work through the code using your own dataset. Adapt the examples to your research question, study design, outcome distribution, and data structure rather than applying a statistical model automatically.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#a-note-on-interpretation",
+    "href": "index.html#a-note-on-interpretation",
+    "title": "Interrupted Time Series Analysis with Application in R",
+    "section": "1.6 A note on interpretation",
+    "text": "1.6 A note on interpretation\nInterrupted time series analysis can provide valuable evidence about the effects of interventions, but the strength of the conclusions depends on the quality of the data, the appropriateness of the design, the validity of the modeling assumptions, and the possibility of concurrent events or other explanations for observed changes.\nThroughout this guide, emphasis is placed on transparent analytical decisions, appropriate model diagnostics, sensitivity analyses, and cautious interpretation of findings.\n\nAuthor: Corneille K. Ntihabose\nThis guide is intended as a practical and evolving resource for researchers seeking to conduct rigorous, transparent, and reproducible interrupted time series analyses using R.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Interrupted Time Series Analysis with R</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Foundations of interrupted time series analysis.html",
+    "href": "chapters/Foundations of interrupted time series analysis.html",
+    "title": "2  Foundations of Interrupted Time Series Analysis",
+    "section": "",
+    "text": "2.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations of Interrupted Time Series Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Foundations of interrupted time series analysis.html#learning-objectives",
+    "href": "chapters/Foundations of interrupted time series analysis.html#learning-objectives",
+    "title": "2  Foundations of Interrupted Time Series Analysis",
+    "section": "",
+    "text": "Explain the principles of interrupted time series (ITS) analysis.\nIdentify research questions suitable for ITS.\nDefine the intervention, outcome, and study period.\nUnderstand the strengths and limitations of ITS designs.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations of Interrupted Time Series Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Foundations of interrupted time series analysis.html#introduction",
+    "href": "chapters/Foundations of interrupted time series analysis.html#introduction",
+    "title": "2  Foundations of Interrupted Time Series Analysis",
+    "section": "2.2 Introduction",
+    "text": "2.2 Introduction\nInterrupted time series analysis is a quasi-experimental method used to evaluate whether an intervention is associated with a change in an outcome over time.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations of Interrupted Time Series Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Data preparation and exploration.html",
+    "href": "chapters/Data preparation and exploration.html",
+    "title": "3  Data Preparation and Exploration",
+    "section": "",
+    "text": "3.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Preparation and Exploration</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Data preparation and exploration.html#learning-objectives",
+    "href": "chapters/Data preparation and exploration.html#learning-objectives",
+    "title": "3  Data Preparation and Exploration",
+    "section": "",
+    "text": "Import and inspect datasets in R.\nClean and wrangle data for ITS analysis.\nConstruct time and intervention variables.\nSummarize and visualize outcome trends.\nValidate the analysis dataset.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Preparation and Exploration</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Data preparation and exploration.html#introduction",
+    "href": "chapters/Data preparation and exploration.html#introduction",
+    "title": "3  Data Preparation and Exploration",
+    "section": "3.2 Introduction",
+    "text": "3.2 Introduction\nReliable ITS analysis begins with well-prepared data. This chapter covers data import, cleaning, aggregation, validation, and exploratory analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Preparation and Exploration</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html",
+    "href": "chapters/Building the ITS model.html",
+    "title": "4  Building the ITS Model",
+    "section": "",
+    "text": "4.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#learning-objectives",
+    "href": "chapters/Building the ITS model.html#learning-objectives",
+    "title": "4  Building the ITS Model",
+    "section": "",
+    "text": "Explain segmented regression.\nConstruct and fit a basic ITS model.\nInterpret immediate level changes and changes in trend.\nSelect an appropriate outcome distribution.\nAssess model assumptions and diagnostics.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#introduction",
+    "href": "chapters/Building the ITS model.html#introduction",
+    "title": "4  Building the ITS Model",
+    "section": "4.2 Introduction",
+    "text": "4.2 Introduction\nSegmented regression is commonly used to estimate changes in outcome levels and trends following an intervention.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Advanced designs and extensions.html",
+    "href": "chapters/Advanced designs and extensions.html",
+    "title": "5  Advanced Designs and Extensions",
+    "section": "",
+    "text": "5.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Advanced Designs and Extensions</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Advanced designs and extensions.html#learning-objectives",
+    "href": "chapters/Advanced designs and extensions.html#learning-objectives",
+    "title": "5  Advanced Designs and Extensions",
+    "section": "",
+    "text": "Explain controlled interrupted time series (CITS).\nCompare intervention and control group trends.\nUnderstand analyses involving multiple facilities.\nExplore advanced time series models.\nAddress seasonality and other time-varying factors.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Advanced Designs and Extensions</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Advanced designs and extensions.html#introduction",
+    "href": "chapters/Advanced designs and extensions.html#introduction",
+    "title": "5  Advanced Designs and Extensions",
+    "section": "5.2 Introduction",
+    "text": "5.2 Introduction\nAdvanced ITS designs extend the basic approach to more complex evaluations, including studies with comparison groups and multiple facilities.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Advanced Designs and Extensions</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Robustness, interpretation, and reporting.html",
+    "href": "chapters/Robustness, interpretation, and reporting.html",
+    "title": "6  Robustness, Interpretation, and Reporting",
+    "section": "",
+    "text": "6.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Robustness, Interpretation, and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Robustness, interpretation, and reporting.html#learning-objectives",
+    "href": "chapters/Robustness, interpretation, and reporting.html#learning-objectives",
+    "title": "6  Robustness, Interpretation, and Reporting",
+    "section": "",
+    "text": "Conduct sensitivity analyses.\nInterpret estimates and confidence intervals.\nAssess the robustness of findings.\nPresent results in tables and figures.\nReport ITS methods and findings transparently.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Robustness, Interpretation, and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Robustness, interpretation, and reporting.html#introduction",
+    "href": "chapters/Robustness, interpretation, and reporting.html#introduction",
+    "title": "6  Robustness, Interpretation, and Reporting",
+    "section": "6.2 Introduction",
+    "text": "6.2 Introduction\nA rigorous ITS analysis requires more than fitting a model. Researchers must assess the robustness of their findings, interpret effect estimates carefully, and report their analytical decisions transparently.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Robustness, Interpretation, and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Worked examples and practical applications.html",
+    "href": "chapters/Worked examples and practical applications.html",
+    "title": "7  Worked Examples and Practical Applications",
+    "section": "",
+    "text": "7.1 Learning objectives\nBy the end of this chapter, you will be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Worked Examples and Practical Applications</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Worked examples and practical applications.html#learning-objectives",
+    "href": "chapters/Worked examples and practical applications.html#learning-objectives",
+    "title": "7  Worked Examples and Practical Applications",
+    "section": "",
+    "text": "Apply the ITS workflow to a real-world research question.\nPrepare a dataset for analysis.\nFit and interpret an ITS model.\nConduct a controlled ITS analysis where appropriate.\nCommunicate findings and limitations.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Worked Examples and Practical Applications</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Worked examples and practical applications.html#introduction",
+    "href": "chapters/Worked examples and practical applications.html#introduction",
+    "title": "7  Worked Examples and Practical Applications",
+    "section": "7.2 Introduction",
+    "text": "7.2 Introduction\nThis chapter brings together the methods introduced throughout the guide using practical examples from public health and health policy evaluation.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Worked Examples and Practical Applications</span>"
+    ]
+  }
+]
