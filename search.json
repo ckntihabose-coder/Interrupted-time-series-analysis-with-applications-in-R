@@ -160,6 +160,56 @@
     ]
   },
   {
+    "objectID": "chapters/Building the ITS model.html#explain-segmented-regression",
+    "href": "chapters/Building the ITS model.html#explain-segmented-regression",
+    "title": "4  Building the ITS Model",
+    "section": "4.3 4.1 Explain Segmented Regression",
+    "text": "4.3 4.1 Explain Segmented Regression\nExplain the principles of segmented regression and why it is used in interrupted time series analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#construct-and-fit-a-basic-its-model",
+    "href": "chapters/Building the ITS model.html#construct-and-fit-a-basic-its-model",
+    "title": "4  Building the ITS Model",
+    "section": "4.4 4.2 Construct and Fit a Basic ITS Model",
+    "text": "4.4 4.2 Construct and Fit a Basic ITS Model\nLearn how to create the time variable, intervention indicator, and time-since-intervention variable, then fit a basic ITS model in R.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#interpret-immediate-level-changes-and-changes-in-trend",
+    "href": "chapters/Building the ITS model.html#interpret-immediate-level-changes-and-changes-in-trend",
+    "title": "4  Building the ITS Model",
+    "section": "4.5 4.3 Interpret Immediate Level Changes and Changes in Trend",
+    "text": "4.5 4.3 Interpret Immediate Level Changes and Changes in Trend\nUnderstand how to interpret changes in outcome levels immediately after an intervention and changes in the subsequent trend.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#select-an-appropriate-outcome-distribution",
+    "href": "chapters/Building the ITS model.html#select-an-appropriate-outcome-distribution",
+    "title": "4  Building the ITS Model",
+    "section": "4.6 4.4 Select an Appropriate Outcome Distribution",
+    "text": "4.6 4.4 Select an Appropriate Outcome Distribution\nLearn when to consider linear regression, Poisson regression, or negative binomial regression based on the outcome and data structure.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Building the ITS model.html#assess-model-assumptions-and-diagnostics",
+    "href": "chapters/Building the ITS model.html#assess-model-assumptions-and-diagnostics",
+    "title": "4  Building the ITS Model",
+    "section": "4.7 4.5 Assess Model Assumptions and Diagnostics",
+    "text": "4.7 4.5 Assess Model Assumptions and Diagnostics\nAssess autocorrelation, residual patterns, seasonality, model fit, and other relevant assumptions.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Building the ITS Model</span>"
+    ]
+  },
+  {
     "objectID": "chapters/Advanced designs and extensions.html",
     "href": "chapters/Advanced designs and extensions.html",
     "title": "5  Advanced Designs and Extensions",
