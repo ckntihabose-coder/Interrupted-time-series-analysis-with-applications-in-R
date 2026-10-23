@@ -1,0 +1,16 @@
+# Building the ITS Model
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Explain segmented regression.
+- Construct and fit a basic ITS model.
+- Interpret immediate level changes and changes in trend.
+- Select an appropriate outcome distribution.
+- Assess model assumptions and diagnostics.
+
+## Introduction
+
+Segmented regression is commonly used to estimate changes in outcome levels and trends following an intervention.
+

@@ -1,0 +1,16 @@
+# Data Preparation and Exploration
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Import and inspect datasets in R.
+- Clean and wrangle data for ITS analysis.
+- Construct time and intervention variables.
+- Summarize and visualize outcome trends.
+- Validate the analysis dataset.
+
+## Introduction
+
+Reliable ITS analysis begins with well-prepared data. This chapter covers data import, cleaning, aggregation, validation, and exploratory analysis.
+

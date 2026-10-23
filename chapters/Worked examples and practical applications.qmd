@@ -1,0 +1,16 @@
+# Worked Examples and Practical Applications
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Apply the ITS workflow to a real-world research question.
+- Prepare a dataset for analysis.
+- Fit and interpret an ITS model.
+- Conduct a controlled ITS analysis where appropriate.
+- Communicate findings and limitations.
+
+## Introduction
+
+This chapter brings together the methods introduced throughout the guide using practical examples from public health and health policy evaluation.
+

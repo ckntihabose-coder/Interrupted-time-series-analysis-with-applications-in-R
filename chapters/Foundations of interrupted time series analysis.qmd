@@ -1,0 +1,15 @@
+# Foundations of Interrupted Time Series Analysis
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Explain the principles of interrupted time series (ITS) analysis.
+- Identify research questions suitable for ITS.
+- Define the intervention, outcome, and study period.
+- Understand the strengths and limitations of ITS designs.
+
+## Introduction
+
+Interrupted time series analysis is a quasi-experimental method used to evaluate whether an intervention is associated with a change in an outcome over time.
+

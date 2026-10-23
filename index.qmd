@@ -1,0 +1,66 @@
+# Welcome to Interrupted Time Series Analysis with R
+
+## A Practical Guide to Evaluating Health Interventions and Policies
+
+Interrupted time series (ITS) analysis is a powerful quasi-experimental method for evaluating the effects of health interventions, public health programs, and policy changes over time. It is particularly useful when randomized controlled trials are not feasible and researchers need to assess whether an intervention is associated with a change in an outcome beyond what would have been expected from the underlying trend.
+
+This book provides a practical, step-by-step guide to conducting interrupted time series analysis using **R**. It takes readers from understanding the study design and preparing routine health data to fitting statistical models, assessing assumptions, interpreting intervention effects, and reporting findings.
+
+The guide emphasizes the application of ITS methods to real-world public health and health systems research, including the evaluation of health policies, clinical interventions, service delivery innovations, and health system reforms.
+
+## What will you learn?
+
+By working through this guide, you will learn how to:
+
+- Understand the principles, strengths, and limitations of interrupted time series analysis.
+- Formulate research questions and define intervention dates, outcomes, and study periods.
+- Import, clean, wrangle, and validate datasets for time series analysis.
+- Construct time indices, intervention indicators, and variables representing time since intervention.
+- Explore and visualize outcome trends before and after an intervention.
+- Fit segmented regression models and interpret immediate level changes and changes in trend.
+- Assess autocorrelation, seasonality, missing data, and other important analytical challenges.
+- Conduct controlled interrupted time series analysis when a suitable comparison group is available.
+- Perform sensitivity analyses and evaluate the robustness of findings.
+- Present results using clear tables, figures, and scientific reporting.
+
+## Who is this guide for?
+
+This guide is intended for epidemiologists, biostatisticians, public health researchers, health policy analysts, graduate students, and other researchers interested in evaluating interventions using routinely collected data.
+
+Readers with basic knowledge of regression analysis and some experience with R will benefit most. The guide introduces key statistical concepts alongside practical code, making it useful for both learning and reference.
+
+## How is the book organized?
+
+The book follows the sequence of an actual analytical project.
+
+**Part I: Foundations of Interrupted Time Series Analysis** introduces the design, research questions, intervention definition, and analytical environment.
+
+**Part II: Data Preparation and Exploration** covers data import, data wrangling, time-variable construction, descriptive analysis, and visualization.
+
+**Part III: Building the ITS Model** introduces segmented regression, model selection, autocorrelation, seasonality, and diagnostic assessment.
+
+**Part IV: Advanced Designs and Extensions** explores controlled ITS, multiple facilities, advanced time series methods, and common data challenges.
+
+**Part V: Robustness, Interpretation, and Reporting** focuses on sensitivity analyses, effect interpretation, uncertainty, and scientific reporting.
+
+**Part VI: Worked Examples and Practical Applications** brings the methods together through applied analyses of health interventions and policies.
+
+## How to use this guide
+
+The chapters are designed to be followed sequentially, particularly if you are new to interrupted time series analysis. Each chapter builds on the previous one and combines methodological explanations with practical analytical steps in R.
+
+Readers who already have experience with ITS can use individual chapters as a reference for specific stages of their analysis.
+
+Whenever possible, work through the code using your own dataset. Adapt the examples to your research question, study design, outcome distribution, and data structure rather than applying a statistical model automatically.
+
+## A note on interpretation
+
+Interrupted time series analysis can provide valuable evidence about the effects of interventions, but the strength of the conclusions depends on the quality of the data, the appropriateness of the design, the validity of the modeling assumptions, and the possibility of concurrent events or other explanations for observed changes.
+
+Throughout this guide, emphasis is placed on transparent analytical decisions, appropriate model diagnostics, sensitivity analyses, and cautious interpretation of findings.
+
+---
+
+**Author:** Corneille K. Ntihabose
+
+This guide is intended as a practical and evolving resource for researchers seeking to conduct rigorous, transparent, and reproducible interrupted time series analyses using R.

@@ -1,0 +1,22 @@
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Interrupted Time Series Analysis with Application in R"
+  author: "Corneille Ntihabose"
+  chapters:
+    - index.qmd
+    - chapters/Foundations of interrupted time series analysis.qmd
+    - chapters/Data preparation and exploration.qmd
+    - chapters/Building the ITS model.qmd
+    - chapters/Advanced designs and extensions.qmd
+    - chapters/Robustness, interpretation, and reporting.qmd
+    - chapters/Worked examples and practical applications.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true

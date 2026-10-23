@@ -1,0 +1,16 @@
+# Robustness, Interpretation, and Reporting
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Conduct sensitivity analyses.
+- Interpret estimates and confidence intervals.
+- Assess the robustness of findings.
+- Present results in tables and figures.
+- Report ITS methods and findings transparently.
+
+## Introduction
+
+A rigorous ITS analysis requires more than fitting a model. Researchers must assess the robustness of their findings, interpret effect estimates carefully, and report their analytical decisions transparently.
+

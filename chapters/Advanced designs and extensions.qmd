@@ -1,0 +1,16 @@
+# Advanced Designs and Extensions
+
+## Learning objectives
+
+By the end of this chapter, you will be able to:
+
+- Explain controlled interrupted time series (CITS).
+- Compare intervention and control group trends.
+- Understand analyses involving multiple facilities.
+- Explore advanced time series models.
+- Address seasonality and other time-varying factors.
+
+## Introduction
+
+Advanced ITS designs extend the basic approach to more complex evaluations, including studies with comparison groups and multiple facilities.
+
